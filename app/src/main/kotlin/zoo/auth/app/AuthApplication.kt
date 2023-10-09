@@ -1,11 +1,11 @@
-package zoo.auth.oauth2
+package zoo.auth.app
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class Oauth2Application
+class AuthApplication
 
 fun main(args: Array<String>) {
-    runApplication<Oauth2Application>(*args)
+    runApplication<AuthApplication>(*args)
 }
